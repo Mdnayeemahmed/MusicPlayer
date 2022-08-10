@@ -2,15 +2,14 @@ package com.example.musicplayer
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.musicplayer.databinding.ActivityPlayerBinding
+import com.example.musicplayer.databinding.ActivityPlaylistBinding
 
-class PlayerActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityPlayerBinding
+class PlaylistActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityPlaylistBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setTheme(R.style.Theme_MusicPlayer)
-        setContentView(R.layout.activity_player)
-        binding= ActivityPlayerBinding.inflate(layoutInflater)
+        binding=ActivityPlaylistBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
 }

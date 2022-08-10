@@ -10,7 +10,6 @@
     <string name="favbtn">Favourite</string>
     <string name="seekstart">00:00</string>
     <string name="seekend">loading</string>
-
     <string name="repeat">repeat</string>
     <string name="timer">timer</string>
     <string name="equ">Equlizer</string>
